@@ -19,5 +19,5 @@ public class LikesInformation {
     public void setSum(int sum) {
         this.sumOfLike = sumOfLike;
     }
-}{
+
 }
