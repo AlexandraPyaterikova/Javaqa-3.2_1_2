@@ -1,23 +1,43 @@
 package ru.netology.domain;
 
 public class LikesInformation {
-    private int idUser;
-    private int sumOfLike;
+package ru.netology.domain;
 
-    public int getIdUser() {
-        return idUser;
-    }
+    public class LikesInfo {
+        private int count;
+        private int userLikes;
+        private int canLike;
+        private int canPublish;
 
-    public void setIdUser(int idUser) {
-        this.idUser = idUser;
-    }
+        public int getCount() {
+            return count;
+        }
 
-    public int getSum() {
-        return sumOfLike;
-    }
+        public void setCount(int count) {
+            this.count = count;
+        }
 
-    public void setSum(int sum) {
-        this.sumOfLike = sumOfLike;
+        public int getUserLikes() {
+            return userLikes;
+        }
+
+        public void setUserLikes(int userLikes) {
+            this.userLikes = userLikes;
+        }
+
+        public int getCanLike() {
+            return canLike;
+        }
+
+        public void setCanLike(int canLike) {
+            this.canLike = canLike;
+        }
+
+        public int getCanPublish() {
+            return canPublish;
+        }
+
+        public void setCanPublish(int canPublish) {
+            this.canPublish = canPublish;
+        }
     }
-}{
-}
