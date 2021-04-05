@@ -41,3 +41,4 @@ package ru.netology.domain;
             this.canPublish = canPublish;
         }
     }
+
